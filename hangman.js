@@ -15,7 +15,7 @@ const updateGame = (letter) => {
     wordBlank[index] = letter
     index = word.indexOf(letter, index + 1)
   }
-  console.log(wordBlank.join())
+  console.log(wordBlank.join(''))
 }
 
 const isEndOfGame = () => {
