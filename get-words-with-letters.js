@@ -3,17 +3,18 @@ let letters = {
   'a': [], 'e': []
 }
 
-console.log(function wordsWith(letters, words) {
-  words.forEach(word => {
-    word.split('').forEach(letter => {
-      if (letters[letter]) {
-        letters[letter].push(word)
-      }
-    })
-  })
+// TODO: Make this part work!!!
+// console.log(function wordsWith(letters, words) {
+//   words.forEach(word => {
+//     word.split('').forEach(letter => {
+//       if (letters[letter]) {
+//         letters[letter].push(word)
+//       }
+//     })
+//   })
 
-  Object.keys(letters).map
-}(letters, words))
+//   Object.keys(letters).map
+// }(letters, words))
 
 // console.log plus function that takes a string letters
 // and an array of strings that takes an array of words 
